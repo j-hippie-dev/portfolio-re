@@ -23,7 +23,7 @@
   const selectedProject = ref(null)
   const projects = [
     {
-      id: 'chapchap', title: '챱챱', image: '/chapchap.png', date: '2026. 08 - 2026. 09',
+      id: 'chapchap', title: '챱챱', image: 'chapchap.png', date: '2026. 08 - 2026. 09',
       role: '2차 팀 프로젝트 · 팀장 / Delivery Service', summary: '정기구독 푸드 커머스의 배송 도메인 설계·구현',
       description: '4인 팀 프로젝트에서 배송 요구사항과 상태 흐름을 설계하고, 배송 실행부터 이벤트 처리까지 담당했습니다.',
       tags: ['Java 21', 'Spring Boot', 'JPA', 'MySQL', 'Kafka', 'Flyway', 'MinIO', 'SSE'],
@@ -36,7 +36,7 @@
       ],
     },
     {
-      id: 'tourswitch', title: '투어 스위치', image: '/tourswitch.png', date: '2026. 08 - 2026. 09',
+      id: 'tourswitch', title: '투어 스위치', image: 'tourswitch.png', date: '2026. 08 - 2026. 09',
       role: '관광데이터 활용 공모전 · 기획 / Figma / Full-stack', summary: '혼잡도를 고려해 함께 계획하는 서울 여행 서비스',
       description: '여행 동행자를 초대하고 관광지 후보를 투표한 뒤, 확정된 여행 정보를 기록으로 확인할 수 있도록 사용자 흐름을 구성했습니다.',
       tags: ['Vue 3', 'Pinia', 'Axios', 'Kakao Map', 'Spring Boot', 'JPA', 'OAuth2', 'JWT', 'MySQL'],
@@ -49,7 +49,7 @@
       ],
     },
     {
-      id: 'sangdari', title: '상다리', image: '/sangdari.png', date: '2026. 06 - 2026. 07',
+      id: 'sangdari', title: '상다리', image: 'sangdari.png', date: '2026. 06 - 2026. 07',
       role: '1차 팀 프로젝트 · 팀장 / 회원 기능 Full-stack', summary: '기업·행사 고객과 푸드트럭 사업자를 연결하는 매칭 서비스',
       description: '첫 Full-stack 팀 프로젝트에서 회원 기능의 화면, API, DB를 연결하고 팀 일정과 문서 관리도 함께 담당했습니다.',
       tags: ['Vue 3', 'Pinia', 'Java', 'Spring Boot', 'MyBatis', 'MySQL'],
